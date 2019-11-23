@@ -1,0 +1,12 @@
+Package: ggggR
+Type: Package
+Title: Ricardo's ggplot functions
+Version: 0.1.0
+Author: Ricardo Graiff Garcia
+Maintainer: Ricardo Graiff Garcia <graiffgarcia.1@osu.edu>
+Description: Tiny extensions for ggplot2, all of which 'borrow' heavily on more talented people's hard work.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2(>= 3.0.0)
+RoxygenNote: 7.0.0
