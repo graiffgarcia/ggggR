@@ -60,7 +60,7 @@ GeomDumbbellSizeText <-
             
             text.x <- data
             text.x$label <- ifelse(data$alpha == 1, round(data$x, 2), '')
-            text.x$size <- data$size_x*0.55
+            text.x$size <- data$size_x*0.5
             text.x$xend <- NULL
             text.x$size_x <- NULL
             text.x$size_xend <- NULL
@@ -72,7 +72,7 @@ GeomDumbbellSizeText <-
             
             text.xend <- data
             text.xend$label <- ifelse(data$alpha == 1, round(data$xend, 2), '')
-            text.xend$size <- data$size_xend*0.55
+            text.xend$size <- data$size_xend*0.5
             text.xend$x <- data$xend
             text.xend$xend <- NULL
             text.xend$size_x <- NULL
