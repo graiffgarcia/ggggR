@@ -297,7 +297,7 @@ annotation_custom_text <- function (label, xmin = -Inf, xmax = Inf,
 #' @export
 save_gg <- function (plot = last_plot(), filename, device = NULL, path = NULL,
                      scale = 1, width = NA, height = NA,
-                     units = c("in", "cm", "mm"),
+                     units = "in",
                      dpi = 300, limitsize = TRUE, ...) {
   args <- lapply(substitute(list(...)), deparse)
   if (is.character(plot)){
